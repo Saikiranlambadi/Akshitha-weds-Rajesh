@@ -1,5 +1,6 @@
+<<<<<<< HEAD
 const weddingDate =
-new Date("August 15, 2026 16:00:00");
+new Date("August 20, 2026 16:00:00");
 
 function updateCountdown(){
 
@@ -39,5 +40,4 @@ document.getElementById("seconds").innerHTML=seconds;
 }
 
 updateCountdown();
-
 setInterval(updateCountdown,1000);
