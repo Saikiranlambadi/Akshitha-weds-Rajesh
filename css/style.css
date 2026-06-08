@@ -43,7 +43,7 @@
 }
 
 .first-name{
-    animation:writeName 8s steps(30,end) forwards;
+    animation:writeName 3s steps(30,end) forwards;
 }
 @keyframes pranithiWrite{
     from{
