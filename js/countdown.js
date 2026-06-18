@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 const weddingDate =
-new Date("August 20, 2026 16:00:00");
+new Date("July 1, 2026 00:00:00");
 
 function updateCountdown(){
 
