@@ -1,5 +1,5 @@
 const weddingDate =
-new Date("July 1, 2026 00:00:00");
+new Date("July 2, 2026 00:00:00");
 
 function updateCountdown(){
 
