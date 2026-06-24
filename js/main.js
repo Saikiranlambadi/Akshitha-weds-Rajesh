@@ -48,3 +48,11 @@ locationLinks.forEach(link => {
 		}
 	});
 });
+
+// Stop music when the user leaves or reloads the page
+window.addEventListener("beforeunload", ()=>{
+	if(music && !music.paused){
+		music.pause();
+		music.currentTime = 0;
+	}
+});
